@@ -1,12 +1,4 @@
-<?php
-$arr=["kiwi","pera","mela"];
-for ($i=0; $i <cout($arr); $i++) { 
-  print(arg)
-  # code...
-}
-  # code...
-}
-?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,10 +9,28 @@ for ($i=0; $i <cout($arr); $i++) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>Lamborghini</title>
+    <title>My form</title>
   </head>
   <body>
-    <h1>Lamborghini Urus</h1>
+    <div class="container">
+      <h1>insereisci i tuoi dati</h1>
+
+    <form>
+  <div class="form-group">
+    <label for="name"> Nome:</label>
+    <input type="text  class="form-control" id="name" aria-describedby="emailHelp" placeholder="Il tuo nome ">
+    <small id="emailHelp" class="form-text text-muted">Iserisci il tuo nome</small>
+    </div>
+   </form>
+   <form>
+  <div class="form-group">
+    <label for="name"> Cognome:</label>
+    <input type="text  class="form-control" id="surname" aria-describedby="emailHelp" placeholder="Il tuo cognome ">
+    <small id="emailHelp" class="form-text text-muted">Iserisci il tuo cognome</small>
+    </div>
+   </form>
+  </div>
+ 
     
    
    
